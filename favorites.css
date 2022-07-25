@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://external-preview.redd.it/LNgpGvunI02Ubt_HS7NdZepxAqKVnQfn82jwYby1S5E.png?format=pjpg&auto=webp&s=4d271d9ee6ac3609cff0a11d1dbb959da74f3b13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    h1{
+        color: rgb(206, 219, 23);
+        text-align: center;
+        text-shadow: 2px 2px 5px rgb(22, 7, 7);
+        border: outset solid Gray;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(10, 10, 8);
+        font-style: wavy;
+    }
+    h4{
+        border-style: outset;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        color:black;
+        border-color: white;
+        background-color: rgb(238, 253, 31);
+        opacity: 50%;
+        animation: alternate-reverse;
+    }
+    h2{
+        
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: italic;
+        color:black;
+        opacity: 50%;
+        text-shadow: 2px 2px 3px rgba(5,5,5);
+        animation: alternate-reverse;
+    }
+    button{
+        font:size 50px;
+        position: relative;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: none;
+      }
+    p{
+        text-align: center;
+        color: white;
+    }
+    
+    p:hover{
+        background-color: rgb(214, 228, 15);
+        opacity: 70%;
+        color:black;
+    }
+    h4:hover{
+        background-color: black;
+        opacity: 60%;
+        color: rgb(214, 228, 15);
+    }
+    h1:hover{
+        background-color:rgb(214, 228, 15);
+        opacity: 70%;
+        color:black;
+    }
+    img {
+        padding: 10px;
+        background-color:none;
+        transition: transform .2s; 
+        height: 100px;
+        margin: 0 auto;
+      }
+    img:hover{
+        transform: scale(1.5); 
+      }
